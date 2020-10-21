@@ -65,9 +65,8 @@ public class Demo {
     }
 
     public static void main(String[] args) {
-        int[][] toiletPaper = create2DArrayRandomized(10, 10, 100);
-        // i put some toilet paper here in case someone else left fecal matter
-        System.out.println(arrDeepToString(toiletPaper).replace("},", "},\n"));
+        int testVal = args.length == 0 ? 5 : Integer.parseInt(args[0]);
+        printLoop(testVal);
     }
 
 }
