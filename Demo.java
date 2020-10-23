@@ -23,7 +23,7 @@ public class Demo {
         return output.append('}').toString();
     }
 
-    public static String arrDeepToString(int[][] arr) {
+    public static String arrayDeepToString(int[][] arr) {
         if (arr.length == 0) return "{}";
 
         StringBuilder output = new StringBuilder().append('{');
